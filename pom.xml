@@ -97,8 +97,8 @@
 						<artifactId>maven-war-plugin</artifactId>
 						<version>2.1.1</version>
 						<configuration>
-							<outputDirectory>webapps</outputDirectory>
-							<warName>ROOT</warName>
+							<outputDirectory>target</outputDirectory>
+							<warName>restone</warName>
 						</configuration>
 					</plugin>
 				</plugins>

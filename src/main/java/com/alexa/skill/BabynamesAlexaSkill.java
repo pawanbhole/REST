@@ -23,7 +23,7 @@ public class BabynamesAlexaSkill {
 	@Consumes({MediaType.APPLICATION_JSON})
 	@Path("/suggest")
 	public Response postMsg(Map msg) {		
-		System.out.println("Received request..........................");
+		System.out.println("Received request.........................................................");
 		Map<String, Object> outputMap = new HashMap<String, Object>();
 		outputMap.put("version", "1.0");
 		Map<String, Object> responseMap = new HashMap<String, Object>();
